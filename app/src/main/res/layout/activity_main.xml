@@ -4,31 +4,28 @@
     tools:context="fr.wcs.stylealive.MainActivity"
     style="@style/Main">
 
-    <LinearLayout
-        style="@style/MainContent">
+    <LinearLayout style="@style/MainContent">
 
 
-        <LinearLayout
-            style="@style/TitleContent">
+        <LinearLayout style="@style/TitleContent">
 
 
-            <ImageView
-                style="@style/TitleImage"/>
+            <ImageView style="@style/TitleImage" />
 
 
             <TextView
                 style="@style/TitleText"
-                android:text="@string/title"/>
+                android:text="@string/title" />
 
         </LinearLayout>
 
         <TextView
             style="@style/Text.Description"
-            android:text="@string/description"/>
+            android:text="@string/description" />
 
         <TextView
             style="@style/Subtitle"
-            android:text="@string/subtitle1"/>
+            android:text="@string/subtitle1" />
 
         <TextView
             style="@style/Text"
@@ -43,11 +40,12 @@
             android:text="@string/text2" />
 
         <TextView
-            style="@style/Subtitle.Conclusion"
+            style="@style/TitleText.Conclusion"
             android:text="@string/conclusion" />
 
         <TextView
-            style="@style/Text"
+            style="@style/Text.Description.ConcluContent"
+            android:layout_width="match_parent"
             android:text="@string/concluText" />
 
     </LinearLayout>

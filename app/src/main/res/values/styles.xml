@@ -11,7 +11,6 @@
     <style name="Main">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">match_parent</item>
-        <item name="@android:color">holo_red_dark></item>
     </style>
 
     <style name="MainContent">
@@ -66,11 +65,12 @@
         <item name="android:textColor">@android:color/darker_gray</item>
     </style>
 
-    <style name="Subtitle.Conclusion">
+    <style name="TitleText.Conclusion">
         <item name="android:textSize">26sp</item>
     </style>
 
     <style name = "Text.Description.ConcluContent">
+        <item name="android:layout_width">match_parent</item>
         <item name="android:gravity">right</item>
     </style>
 
